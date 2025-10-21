@@ -1,0 +1,8 @@
+[INFO] 2025-10-15T16:10:00Z - Server started on port 3000
+[INFO] 2025-10-15T16:11:23Z - Request received for /users/1/profile
+[INFO] 2025-10-15T16:11:45Z - Request received for /users/2/profile
+[ERROR] 2025-10-15T16:12:10Z - TypeError: Cannot read properties of null (reading 'name')
+    at /Users/dev/my-project/app.js:18:36
+    at Layer.handle [as handle_request] (/Users/dev/my-project/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/dev/my-project/node_modules/express/lib/router/route.js:144:13)
+[INFO] 2025-10-15T16:13:00Z - Request received for /users/1/profile
